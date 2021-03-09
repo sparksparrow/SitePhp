@@ -1,0 +1,209 @@
+*{
+    margin: 0px ;
+}
+
+body {
+    background-image: url('img/website_decorations/backbround.jpg');
+    background-repeat: repeat;
+}
+
+#main_table {
+    background-color: #EEEEEE;
+    border: 2px solid #555555;
+    width: 1200px;   
+    min-height:1200px;
+    max-width: 1200px;
+    margin: 0px auto;
+    height: 100%;
+    min-height: 1200px;
+}
+
+#header {
+    height: 240px;
+    min-height: 240px;
+}
+
+#main_table {
+    min-height: 800px;
+    height: 100%;
+    width: 100%;
+}
+
+#menu {
+    border-right: 1px solid #000000;
+    min-height: 800px;
+    height: 800px;
+    width: 200px;
+    min-width: 200px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#menu a:hover{
+    background: #AAAAAA;
+}
+
+#content {
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+    font-size: 25px;
+    height: 100%;
+}
+
+#content table tr{
+    height: auto;
+}
+
+#content H3 {
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+#content H4 {
+    margin-left: 15px;
+    font-size: 25px;
+    text-shadow: 1px 1px 3px black;
+}
+
+#about TD {
+    vertical-align: top;
+    text-align: left;
+}
+
+#about p {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    vertical-align: top;
+    font-size: 25px;
+}
+
+
+#main_text {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    vertical-align: top;
+    font-size: 25px;
+    margin-bottom: auto;
+}
+
+#catalog {
+    width: auto;
+}
+
+#catalog td a div {
+    padding: 2px;
+    margin: 5px;
+    border: 5px solid #999999;
+}
+
+#catalog td a div:hover {
+    border: 5px solid black;
+}
+
+#catalog td a {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#catalog td a div p {
+    border-bottom: 2px solid black;
+    margin: 5px;
+}
+
+#amount_to_add {
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: .05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background: white;
+    border: 1px solid;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+#amount_to_add:hover {
+    background: #AAAAAA;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: .05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background: white;
+    border: 1px solid;
+    cursor: pointer;
+    transition: .3s linear;
+    margin: 10px;
+}
+
+.button:hover {
+    background: #AAAAAA;
+}
+
+.main_cart {
+    height: 100%;
+}
+
+#cart_table {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: .05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s linear;
+    border-collapse: collapse;
+}
+
+#cart_table TR {
+    border: 2px solid black;
+    text-align: center;
+    width: 200px;
+}
+
+#cart_table TD {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+#table_menu_content {
+    min-height: 400px;
+}
+
+#footer {
+    color: #000000;
+    text-align: center;
+    height: 20px;
+}
